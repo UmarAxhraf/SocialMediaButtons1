@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("img.jpg");
+}
+
+.nun-buttons {
+  list-style: none;
+  padding: 0;
+}
+
+.nun-buttons li {
+  display: inline-block;
+}
+
+.nun-buttons button {
+  width: 80px;
+  height: 80px;
+  margin: 0 10px;
+  font-size: 36px;
+  border: 0;
+  border-radius: 50%;
+  background-color: #3b3b3b;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2),
+    -3px -3px 3px rgba(255, 255, 255, 0.05), inset 0 0 0 rgba(0, 0, 0, 0),
+    inset 0 0 0 rgba(255, 255, 255, 0);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  outline: none;
+}
+
+.nun-buttons button:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(255, 255, 255, 0),
+    inset 3px 3px 3px rgba(0, 0, 0, 2),
+    inset -3px -3px 3px rgba(255, 255, 255, 0.05);
+}
+
+.nun-buttons button i {
+  color: #666;
+  transition: 0.3s ease-in-out;
+}
+.nun-buttons button:active i {
+  transform: translate(-1px, -1px);
+}
+
+.nun-buttons button:hover .fa-twitter {
+  color: rgba(71, 170, 226);
+  text-shadow: 0 0 5px rgba(71, 170, 226, 0.5), 0 0 10px rgba(71, 170, 226, 0.5),
+    0 0 20px rgba(71, 170, 226, 0.5);
+}
+
+.nun-buttons button:hover .fa-facebook-f {
+  color: rgba(59, 89, 152);
+  text-shadow: 0 0 5px rgba(59, 89, 152, 0.5), 0 0 10px rgba(59, 89, 152, 0.5),
+    0 0 20px rgba(59, 89, 152, 0.5);
+}
+
+.nun-buttons button:hover .fa-pinterest-p {
+  color: rgba(230, 0, 35);
+  text-shadow: 0 0 5px rgba(230, 0, 35), 0 0 10px rgba(230, 0, 35, 0.5),
+    0 0 20px rgba(230, 0, 35, 0.5);
+}
+
+.nun-buttons button:hover .fa-instagram {
+  color: rgba(221, 42, 123);
+  text-shadow: 0 0 5px rgba(221, 42, 123), 0 0 10px rgba(221, 42, 123, 0.5),
+    0 0 20px rgba(221, 42, 123, 0.5);
+}
+
+/* .btn-portfolio {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  background: #282828;
+  outline: none;
+  border: none;
+  box-shadow: -4px -2px 4px 0px #ffffff, 4px 2px 6px 0px #dfe4ea;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #f0e8e8;
+  padding: 0.5rem 0.75rem;
+  margin-top: 1.5rem;
+} */
